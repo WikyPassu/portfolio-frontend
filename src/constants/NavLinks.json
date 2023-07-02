@@ -1,0 +1,27 @@
+[
+  {
+    "href": "#home",
+    "textES": "Inicio",
+    "textEN": "Home"
+  },
+  {
+    "href": "#about",
+    "textES": "Sobre mí",
+    "textEN": "About"
+  },
+  {
+    "href": "#skills",
+    "textES": "Conocimientos",
+    "textEN": "Skills"
+  },
+  {
+    "href": "#portfolio",
+    "textES": "Portafolio",
+    "textEN": "Portfolio"
+  },
+  {
+    "href": "#contact",
+    "textES": "Contacto",
+    "textEN": "Contact"
+  }
+]

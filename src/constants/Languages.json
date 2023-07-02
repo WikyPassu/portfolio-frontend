@@ -1,0 +1,82 @@
+{
+  "homeES": {
+    "contentSalute": "¡Hola! Mi nombre es",
+    "contentIm": "Y soy ",
+    "contentTypedFirst": "Desarrollador Full Stack",
+    "contentTypedSecond": "Desarrollador Móvil",
+    "contentP": "Me apasiona contribuir al desarrollo de software de calidad, mejorando y superarando los desafíos que se presenten.",
+    "contentBtn": "Leer más"
+  },
+  "homeEN": {
+    "contentSalute": "Hi! My name is",
+    "contentIm": "And I'm ",
+    "contentTypedFirst": "Full Stack Developer",
+    "contentTypedSecond": "Mobile Developer",
+    "contentP": "Passionate about contributing to the development of quality software, improving and overcoming the challenges that arise.",
+    "contentBtn": "Read more"
+  },
+  "aboutES": {
+    "contentFirst": "Sobre ",
+    "contentSecond": "mí",
+    "contentTitles": "Desarrollador Full Stack | Desarrollador Móvil",
+    "contentP": "Mi viaje comenzó con una sólida formación en programación y sistemas informáticos en la Universidad Tecnológica Nacional, obteniendo dos titulaciones. Amplié mis conocimientos en diferentes lenguajes y tecnologías, además desarrollé proyectos web y móviles, especialmente en el ✨Backend✨. Mi objetivo es continuar aprendiendo y crecer profesionalmente, creando soluciones escalables y funcionales. Si estás en busca de un desarrollador con habilidades técnicas en constante desarrollo y una actitud positiva, ¡me encantaría tener la oportunidad de hablar contigo!",
+    "contentBtn": "Descargar CV"
+  },
+  "aboutEN": {
+    "contentFirst": "About ",
+    "contentSecond": "me",
+    "contentTitles": "Full Stack Developer | Mobile Developer",
+    "contentP": "My journey began with a solid background in programming and computer systems at Universidad Tecnológica Nacional, obtaining two degrees. I expanded my knowledge in different languages ​​and technologies, I also developed web and mobile projects, especially in the ✨Backend✨. My goal is to continue learning and growing professionally, creating scalable and functional solutions. If you're looking for a developer with ever-developing technical skills and a positive attitude, I'd love the chance to talk with you!",
+    "contentBtn": "Download CV"
+  },
+  "skillsES": {
+    "headingFirst": "Mis ",
+    "headingSecond": "conocimientos"
+  },
+  "skillsEN": {
+    "headingFirst": "My ",
+    "headingSecond": "skills"
+  },
+  "portfolioES": {
+    "headingFirst": "Mis últimos ",
+    "headingSecond": "proyectos",
+    "modalTech": "Tecnologías"
+  },
+  "portfolioEN": {
+    "headingFirst": "My latest ",
+    "headingSecond": "projects",
+    "modalTech": "Technologies"
+  },
+  "contactES": {
+    "headingFirst": "Contacta ",
+    "headingSecond": "conmigo",
+    "namePH": "Nombre",
+    "emailPH": "Correo electrónico",
+    "subjectPH": "Asunto",
+    "messagePH": "Tu mensaje",
+    "formBtn": "Enviar mensaje",
+    "emptyError": "Este campo es obligatorio.",
+    "invalidError": "Ingrese un email válido.",
+    "toastError": "Es necesario completar todos los campos y el captcha de manera precisa y adecuada.",
+    "toastEmailjsError": "Ocurrió un error inesperado al enviar tu mensaje desde la web. De todas maneras, puedes contactarme al correo que figura en mi CV."
+  },
+  "contactEN": {
+    "headingFirst": "Contact ",
+    "headingSecond": "me",
+    "namePH": "Name",
+    "emailPH": "Email",
+    "subjectPH": "Subject",
+    "messagePH": "Your message",
+    "formBtn": "Send message",
+    "emptyError": "This field is required.",
+    "invalidError": "Enter a valid email.",
+    "toastError": "It is necessary to complete all the fields and the captcha accurately and properly.",
+    "toastEmailjsError": "An unexpected error occurred while sending your message from the web. In any case, you can contact me at the email that appears on my CV."
+  },
+  "footerES": {
+    "footerP": " 2023 por Passu | Todos los Derechos Reservados."
+  },
+  "footerEN": {
+    "footerP": " 2023 by Passu | All Rights Reserved."
+  }
+}

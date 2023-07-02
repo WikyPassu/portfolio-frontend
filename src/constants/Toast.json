@@ -1,0 +1,9 @@
+{
+  "position": "bottom-right",
+  "autoClose": 15000,
+  "hideProgressBar": false,
+  "closeOnClick": true,
+  "pauseOnHover": true,
+  "draggable": false,
+  "theme": "light"
+}

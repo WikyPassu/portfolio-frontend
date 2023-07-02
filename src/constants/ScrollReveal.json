@@ -1,0 +1,26 @@
+[
+  {
+    "tags": ".home-content, .heading",
+    "options": { 
+      "origin": "top"
+    }
+  },
+  {
+    "tags": ".home-img, .skills-container, .portfolio-box, .contact form",
+    "options": { 
+      "origin": "bottom"
+    }
+  },
+  {
+    "tags": ".home-content h1, .about-img",
+    "options": { 
+      "origin": "left"
+    }
+  },
+  {
+    "tags": ".home-content p, .about-content, .contact-img",
+    "options": { 
+      "origin": "right"
+    }
+  }
+]

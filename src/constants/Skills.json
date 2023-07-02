@@ -1,0 +1,79 @@
+[
+  {
+    "icon": "bx bx-code-alt",
+    "titleES": "Desarrollo Frontend",
+    "titleEN": "Frontend Development",
+    "skills": [
+      {
+        "src": "src/assets/skills/html.png",
+        "desc": "HTML"
+      },
+      {
+        "src": "src/assets/skills/css.png",
+        "desc": "CSS"
+      },
+      {
+        "src": "src/assets/skills/javascript.png",
+        "desc": "JavaScript"
+      },
+      {
+        "src": "src/assets/skills/react.png",
+        "desc": "React"
+      },
+      {
+        "src": "src/assets/skills/react.png",
+        "desc": "React Native"
+      },
+      {
+        "src": "src/assets/skills/next.png",
+        "desc": "Next"
+      }
+    ]
+  },
+  {
+    "icon": "bx bxs-server",
+    "titleES": "Desarrollo Backend",
+    "titleEN": "Backend Development",
+    "skills": [
+      {
+        "src": "src/assets/skills/node.png",
+        "desc": "Node"
+      },
+      {
+        "src": "src/assets/skills/express.png",
+        "desc": "Express"
+      },
+      {
+        "src": "src/assets/skills/mysql.png",
+        "desc": "MySQL"
+      },
+      {
+        "src": "src/assets/skills/mongodb.png",
+        "desc": "MongoDB"
+      }
+    ]
+  },
+  {
+    "icon": "bx bx-code-curly",
+    "titleES": "Otras tecnologías",
+    "titleEN": "Other technologies",
+    "skills": [
+      {
+        "src": "src/assets/skills/c.png",
+        "desc": "C"
+      },
+      {
+        "src": "src/assets/skills/csharp.png",
+        "desc": "C Sharp"
+      },
+      {
+        "src": "src/assets/skills/java.png",
+        "desc": "Java"
+      },
+      {
+        "src": "src/assets/skills/git.png",
+        "desc": "Git"
+      }
+    ]
+  }
+]

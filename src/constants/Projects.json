@@ -1,0 +1,38 @@
+[
+  {
+    "src": "passucripto/passucripto-icon.png",
+    "title": "Passu Cripto",
+    "resES": "App que muestra las cotizaciones en tiempo real de las criptomonedas más usadas.",
+    "resEN": "App that shows the real-time quotes of the most used cryptocurrencies.",
+    "descES": "La app proporciona cotizaciones en tiempo real de las 250 criptomonedas más valiosas. Tiene filtros y un buscador para facilitar la búsqueda. Proporciona información detallada sobre cada criptomoneda, incluyendo un gráfico de precios de los últimos 7 días. Permite crear una lista de tus criptomonedas favoritas. También incluye un conversor para convertir entre criptomonedas, dólares y pesos argentinos.",
+    "descEN": "The app provides real-time quotes for the 250 most valuable cryptocurrencies. It has filters and a search engine to facilitate the search. It provides detailed information on each cryptocurrency, including a price chart for the last 7 days. Allows you to create a list of your favorite cryptocurrencies. It also includes a converter to convert between cryptocurrencies, dollars and Argentine pesos.",
+    "type": "app",
+    "techs": ["React Native", "HTML", "CSS", "JavaScript", "CoinGecko-API", "CriptoYa-API"],
+    "slides": [
+      "passucripto/pc1.jpg",
+      "passucripto/pc2.jpg",
+      "passucripto/pc3.jpg",
+      "passucripto/pc4.jpg",
+      "passucripto/pc5.jpg",
+      "passucripto/pc6.jpg",
+      "passucripto/pc7.jpg",
+      "passucripto/pc8.jpg"
+    ]
+  },
+  {
+    "src": "ygocardsearcher/ygocardsearcher-icon.png",
+    "title": "YGOCardSearcher",
+    "resES": "App sobre Yu-Gi-Oh! donde se pueden buscar todas las cartas y ver su información detallada.",
+    "resEN": "App about Yu-Gi-Oh! where you can search all cards and see their detailed information.",
+    "descES": "La aplicación muestra todas las cartas del juego de cartas Yu-Gi-Oh! Puedes buscar por nombre o descripción y aplicar filtros avanzados. Para cada carta, se muestra la imagen y se proporciona información detallada.",
+    "descEN": "The app displays all the cards from Yu-Gi-Oh! You can search by name or description and apply advanced filters. For each card, the image is displayed and detailed information is provided.",
+    "type": "app",
+    "techs": ["Android Studio", "XML", "Java", "YGOPRODeck-API"],
+    "slides": [
+      "ygocardsearcher/ygocs1.jpg",
+      "ygocardsearcher/ygocs2.jpg",
+      "ygocardsearcher/ygocs3.jpg",
+      "ygocardsearcher/ygocs4.jpg"
+    ]
+  }
+]
