@@ -792,6 +792,12 @@ p {
   }
 }
 
+@media (max-height: 768) {
+  html {
+    font-size: 45%;
+  }
+}
+
 @media (max-width: 1024px) {
   .header {
     padding: 2rem 3%;
