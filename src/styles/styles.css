@@ -43,7 +43,7 @@ html.active {
 
 body {
   background: var(--bg-color);
-  background-image: url("/src/assets/bg.png");
+  background-image: url("/assets/bg.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -522,12 +522,12 @@ p {
 }
 
 .container h4 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-top: 1rem;
 }
 
 .container p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .modal-content {

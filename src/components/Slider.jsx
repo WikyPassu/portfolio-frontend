@@ -3,7 +3,7 @@ import { useState } from "react";
 const Slider = ({type, slides}) => {
   const [slide, setSlide] = useState(0);
   
-  const route = "../src/assets/portfolio/";
+  const route = "/assets/portfolio/";
 
   const handleOnNextSlideClick = () => {
     setSlide(slide === slides.length - 1 ? 0 : slide + 1);

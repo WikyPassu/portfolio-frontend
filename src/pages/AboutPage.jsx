@@ -6,7 +6,7 @@ const AboutPage = ({lang, languages}) => {
   return (
     <section className="about" id="about">
       <div className="about-img">
-        <img src="../src/assets/about/about-img.png" alt="" />
+        <img src="/assets/about/about-img.png" alt="" />
       </div>
       <div className="about-content">
         <h2 className="heading">
@@ -16,7 +16,7 @@ const AboutPage = ({lang, languages}) => {
         <h3>{lang ? aboutES.contentTitles : aboutEN.contentTitles}</h3>
         <p>{lang ? aboutES.contentP : aboutEN.contentP}</p>
         <Button 
-          href={lang ? "../src/assets/about/CV-AlanPassucci.pdf" : "../src/assets/about/CV-AlanPassucci-EN.pdf"}
+          href={lang ? "/assets/about/CV-AlanPassucci.pdf" : "/assets/about/CV-AlanPassucci-EN.pdf"}
           download={lang ? "CV-AlanPassucci.pdf" : "CV-AlanPassucci-EN.pdf"}
           text={lang ? aboutES.contentBtn : aboutEN.contentBtn}
         />

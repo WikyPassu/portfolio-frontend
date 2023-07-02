@@ -33,7 +33,7 @@ const HomePage = ({lang, languages}) => {
         <Button href="#about" text={lang ? homeES.contentBtn : homeEN.contentBtn}/>
       </div>
       <div className="home-img">
-        <img src="../src/assets/home/home-img.png" alt="" />
+        <img src="/assets/home/home-img.png" alt="" />
       </div>
     </section>
   );
