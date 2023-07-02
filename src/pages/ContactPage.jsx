@@ -177,7 +177,7 @@ const ContactPage = ({lang, languages}) => {
         </form>
       </div>
       <div className="contact-img">
-        <img src="src/assets/contact/contact-img.png" alt="" />
+        <img src="../src/assets/contact/contact-img.png" alt="" />
       </div>
     </section>
   );
