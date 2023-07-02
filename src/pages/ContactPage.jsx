@@ -82,7 +82,7 @@ const ContactPage = ({lang, languages}) => {
     }
     
     try {
-      const res = await axios.post("https://a-p-portfolio-api.vercel.app:5000/api/mail/", { mail });
+      const res = await axios.post("https://a-p-portfolio-api.vercel.app/api/mail/", { mail });
       emailjs.send("service_2zdsc4z", "template_hfbx3ag", mail, "h6cmth_7EZffjbuYR")
       .then(r => {
         resetForm();
