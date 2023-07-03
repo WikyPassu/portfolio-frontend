@@ -1090,6 +1090,56 @@ p {
   }
 }
 
+@media (max-height: 375px) {
+  .home-img img {
+    width: 35vw;
+  }
+
+  .about {
+    gap: 2rem;
+  }
+
+  .about img {
+    width: 30vw;
+  }
+
+  .about-img {
+    width: 30vw;
+  }
+
+  .skills-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .skills-grid .skill-card img {
+    width: 10vw;
+  }
+
+  .portfolio-container .portfolio-box {
+    width: 40vw;
+  }
+
+  .container {
+    width: 85vw;
+  }
+
+  .slider {
+    width: 78vw;
+  }
+  
+  .slider.app {
+    width: 15vw;
+  }
+
+  .contact-img img {
+    width: 40vw;
+  }
+
+  .footer p {
+    text-align: center;
+  }
+}
+
 @media (max-height: 768px) {
   html {
     font-size: 45%;
