@@ -83,15 +83,15 @@ const ContactPage = ({lang, languages}) => {
     
     try {
       const res = await axios.post("https://a-p-portfolio-api.vercel.app/api/mail/", { mail });
-      //emailjs.send("service_2zdsc4z", "template_hfbx3ag", mail, "h6cmth_7EZffjbuYR")
-      //.then(r => {
+      emailjs.send("service_2zdsc4z", "template_hfbx3ag", mail, "h6cmth_7EZffjbuYR")
+      .then(r => {
         resetForm();
         toast.success(lang ? res.data.msg.es : res.data.msg.en, TOAST_CONFIG);
-      //})
-      //.catch(e => {
-      //  resetForm();
-       // toast.error(lang ? contactES.toastEmailjsError : contactEN.toastEmailjsError, TOAST_CONFIG);
-      //});
+      })
+      .catch(e => {
+        resetForm();
+        toast.error(lang ? contactES.toastEmailjsError : contactEN.toastEmailjsError, TOAST_CONFIG);
+      });
     } catch({response}) {
       resetForm();
       toast.error(lang ? response.data.msg.es : response.data.msg.en, TOAST_CONFIG);
