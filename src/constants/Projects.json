@@ -1,10 +1,27 @@
 [
   {
+    "src": "passuwordgen/passuwordgen-icon.png",
+    "title": "PassuwordGen",
+    "resES": "Web que permita generar contraseñas aleatorias de acuerdo a las preferencias del usuario.",
+    "resEN": "Web that allows to generate random passwords according to the preferences of the user.",
+    "descES": "La web es capaz de generar contraseñas aleatoriamente. Puede seleccionarse la longitud de la contraseña y si deben incluirse mayúsculas, minúsculas, números o símbolos. Permite regenerar, mezclar o copiar la contraseña generada.",
+    "descEN": "The web is capable of randomly generating passwords. You can select the length of the password and whether to include uppercase, lowercase, numbers, or symbols. Allows you to regenerate, mix or copy the generated password.",
+    "type": "web",
+    "link": "https://passuwordgen.vercel.app/",
+    "techs": ["React", "HTML", "CSS", "JavaScript"],
+    "slides": [
+      "passuwordgen/pwg1.png",
+      "passuwordgen/pwg2.png",
+      "passuwordgen/pwg3.png",
+      "passuwordgen/pwg4.png"
+    ]
+  },
+  {
     "src": "passucripto/passucripto-icon.png",
     "title": "Passu Cripto",
     "resES": "App que muestra las cotizaciones en tiempo real de las criptomonedas más usadas.",
     "resEN": "App that shows the real-time quotes of the most used cryptocurrencies.",
-    "descES": "La app proporciona cotizaciones en tiempo real de las 250 criptomonedas más valiosas. Tiene filtros y un buscador para facilitar la búsqueda. Proporciona información detallada sobre cada criptomoneda, incluyendo un gráfico de precios de los últimos 7 días. Permite crear una lista de tus criptomonedas favoritas. También incluye un conversor para convertir entre criptomonedas, dólares y pesos argentinos.",
+    "descES": "La aplicación proporciona cotizaciones en tiempo real de las 250 criptomonedas más valiosas. Tiene filtros y un buscador para facilitar la búsqueda. Proporciona información detallada sobre cada criptomoneda, incluyendo un gráfico de precios de los últimos 7 días. Permite crear una lista de tus criptomonedas favoritas. También incluye un conversor para convertir entre criptomonedas, dólares y pesos argentinos.",
     "descEN": "The app provides real-time quotes for the 250 most valuable cryptocurrencies. It has filters and a search engine to facilitate the search. It provides detailed information on each cryptocurrency, including a price chart for the last 7 days. Allows you to create a list of your favorite cryptocurrencies. It also includes a converter to convert between cryptocurrencies, dollars and Argentine pesos.",
     "type": "app",
     "techs": ["React Native", "HTML", "CSS", "JavaScript", "CoinGecko-API", "CriptoYa-API"],

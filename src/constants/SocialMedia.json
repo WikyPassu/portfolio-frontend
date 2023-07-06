@@ -1,10 +1,12 @@
 [
   {
     "href": "https://www.linkedin.com/in/alan-passucci-a75b65222/",
+    "className": "round-btn",
     "icon": "bx bxl-linkedin-square"
   },
   {
     "href": "https://github.com/WikyPassu",
+    "className": "round-btn",
     "icon": "bx bxl-github"
   }
 ]

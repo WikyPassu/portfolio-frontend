@@ -15,7 +15,7 @@ const Slider = ({type, slides}) => {
 
   return (
     <div className="slider-container">
-      <div className={type == "web" ? "slider" : "slider app"}>
+      <div className={type == "web" ? "slider" : "slider-app"}>
         <i className="bx bxs-left-arrow-circle arrow" onClick={() => handleOnPrevSlideClick()}></i>
         {
           slides.map((src, index) => (

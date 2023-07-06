@@ -4,7 +4,9 @@ const SocialMedia = ({socialMedia}) => {
   return (
     <div className="social-media">
       {
-        socialMedia.map(({href, icon}) => <RoundButton key={icon} href={href} icon={icon}/>)
+        socialMedia.map(({href, className, icon}) => (
+          <RoundButton key={icon} href={href} className={className} icon={icon}/>)
+        )
       }
     </div>
   );

@@ -504,10 +504,26 @@ p {
 .container {
   display: flex;
   position: relative;
-  /* flex-direction: column; */
-  align-items: center;
   justify-content: center;
-  background: linear-gradient(#aa367c40, #492fbd40);
+  align-items: center;
+  flex-direction: column;
+  /* background: linear-gradient(#aa367c40, #492fbd40); */
+  background: #00000080;
+  border: .2rem solid var(--text-color);
+  padding: 2rem 2rem 2rem;
+  width: 50vw;
+  border-radius: 2rem;
+  color: #fff;
+  overflow: hidden;
+}
+
+.container-app {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(#aa367c40, #492fbd40); */
+  background: #00000080;
   border: .2rem solid var(--text-color);
   padding: 2rem 2rem 2rem 6rem;
   width: 50vw;
@@ -516,7 +532,7 @@ p {
   overflow: hidden;
 }
 
-.container .close {
+.container .close, .container-app .close {
   position: absolute;
   font-size: 4rem;
   right: 0;
@@ -525,16 +541,22 @@ p {
   cursor: pointer;
 }
 
-.container h4 {
+.container h4, .container-app h4{
   font-size: 1.7rem;
   margin-top: 1rem;
 }
 
-.container p {
+.container p, .container-app p {
   font-size: 1.3rem;
 }
 
 .modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal-content-app {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -546,6 +568,35 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.project-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 1rem;
+  background: transparent;
+  border: .2rem solid var(--text-color);
+  border-radius: 50%;
+  font-size: 2.2rem;
+  color: var(--text-color);
+  transition: .5s ease, transform .3s ease-out;
+}
+
+.project-btn:hover {
+  background: var(--text-color);
+  color: var(--bg-color);
+  box-shadow: 0 0 1rem var(--text-color);
+}
+
+.project-btn:active {
+  transform: scale(0.95);
+  transition-duration: .1s;
 }
 
 .modal-tech {
@@ -586,11 +637,13 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 48vw;
-  height: auto;
+  width: 42vw;
 }
 
-.slider.app {
+.slider-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 15vw;
 }
 
@@ -627,13 +680,14 @@ p {
   border-radius: 100%;
   border: none;
   outline: none;
-  box-shadow: 0px 0px 5px #000;
+  box-shadow: 0px 0px 5px #fff;
   margin: 0 .2rem;
   cursor: pointer;
 }
 
 .indicator-inactive {
   background-color: #000;
+  box-shadow: 0px 0px 5px #fff;
 }
 
 /* CONTACT PAGE */
@@ -741,11 +795,15 @@ p {
 /* BREAKPOINTS */
 
 @media (max-width: 1440px) {
-  .container {
+  .container, .container-app {
     width: 60vw;
   }
+  
+  .slider-app {
+    width: 45vw;
+  }
 
-  .slider.app {
+  .slider-app {
     width: 18vw;
   }
 }
@@ -775,15 +833,15 @@ p {
     width: 40vw;
   }
 
-  .container {
+  .container, .container-app {
     width: 70vw;
   }
 
   .slider {
-    width: 53vw;
+    width: 48vw;
   }
   
-  .slider.app {
+  .slider-app {
     width: 21vw;
   }
 
@@ -825,15 +883,15 @@ p {
     width: 45vw;
   }
 
-  .container {
+  .container, .container-app {
     width: 80vw;
   }
 
   .slider {
-    width: 58vw;
+    width: 53vw;
   }
   
-  .slider.app {
+  .slider-app {
     width: 25vw;
   }
 
@@ -932,7 +990,7 @@ p {
     width: 45vw;
   }
 
-  .container {
+  .container, .container-app {
     width: 85vw;
   }
 
@@ -940,7 +998,7 @@ p {
     width: 63vw;
   }
   
-  .slider.app {
+  .slider-app {
     width: 30vw;
   }
 
@@ -983,13 +1041,13 @@ p {
     width: 75vw;
   }
 
-  .container {
+  .container, .container-app {
     flex-direction: column;
     padding: 2rem;
     width: 90vw;
   }
 
-  .modal-content {
+  .modal-content-app {
     margin-left: 0;
   }
 
@@ -997,7 +1055,7 @@ p {
     width: 68vw;
   }
   
-  .slider.app {
+  .slider-app {
     width: 35vw;
   }
 
@@ -1031,7 +1089,7 @@ p {
     width: 85vw;
   }
 
-  .container {
+  .container, .container-app {
     width: 95vw;
   }
 
@@ -1039,7 +1097,7 @@ p {
     width: 73vw;
   }
   
-  .slider.app {
+  .slider-app {
     width: 40vw;
   }
 
@@ -1069,15 +1127,15 @@ p {
     width: 90vw;
   }
 
-  .container {
-    width: 85vw;
+  .container, .container-app {
+    width: 99vw;
   }
 
   .slider {
     width: 78vw;
   }
   
-  .slider.app {
+  .slider-app {
     width: 45vw;
   }
 
@@ -1119,15 +1177,15 @@ p {
     width: 40vw;
   }
 
-  .container {
+  .container, .container-app {
     width: 85vw;
   }
 
   .slider {
-    width: 78vw;
+    width: 36vw;
   }
   
-  .slider.app {
+  .slider-app {
     width: 15vw;
   }
 
