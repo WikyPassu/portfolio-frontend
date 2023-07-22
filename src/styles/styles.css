@@ -616,8 +616,8 @@ p {
   justify-content: center;
   align-items: center;
   background: var(--main-color);
-  padding: 1rem;
-  border-radius: 5rem;
+  padding: .2rem .5rem .2rem;
+  border-radius: .5rem;
   margin: .5rem;
   box-shadow: 0 0 1rem #000;
   width: fit-content;
