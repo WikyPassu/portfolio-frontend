@@ -1,8 +1,24 @@
 [
   {
+    "src": "dondever/dondever-icon.png",
+    "title": "Donde ver",
+    "resES": "Web para buscar películas/series, ver información detallada y en qué plataforma de streaming está disponible.",
+    "resEN": "Web to search for movies/series, see detailed information and on which streaming platform it is available.",
+    "descES": "En este sitio web, tienes la posibilidad de buscar películas, series, animes, caricaturas y otros contenidos audiovisuales, y obtener información detallada sobre cada uno de ellos. Su función principal es proporcionarte la lista de plataformas de streaming donde se encuentran disponibles para su visualización.",
+    "descEN": "On this web, you have the possibility to search for movies, series, animes, cartoons and other audiovisual content, and obtain detailed information about each of them. Its main function is to provide you with the list of streaming platforms where they are available for viewing.",
+    "type": "web",
+    "link": "https://donde-ver.vercel.app/",
+    "techs": ["React", "HTML", "CSS", "JavaScript", "Rapid-API", "StreamingAvailability-API"],
+    "slides": [
+      "dondever/dv1.png",
+      "dondever/dv2.png",
+      "dondever/dv3.png"
+    ]
+  },
+  {
     "src": "passuwordgen/passuwordgen-icon.png",
     "title": "PassuwordGen",
-    "resES": "Web que permita generar contraseñas aleatorias de acuerdo a las preferencias del usuario.",
+    "resES": "Web que permite generar contraseñas aleatorias de acuerdo a las preferencias del usuario.",
     "resEN": "Web that allows to generate random passwords according to the preferences of the user.",
     "descES": "La web es capaz de generar contraseñas aleatoriamente. Puede seleccionarse la longitud de la contraseña y si deben incluirse mayúsculas, minúsculas, números o símbolos. Permite regenerar, mezclar o copiar la contraseña generada.",
     "descEN": "The web is capable of randomly generating passwords. You can select the length of the password and whether to include uppercase, lowercase, numbers, or symbols. Allows you to regenerate, mix or copy the generated password.",
