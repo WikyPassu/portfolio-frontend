@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Carousel from "react-elastic-carousel";
+import Carousel from "@itseasy21/react-elastic-carousel";
 import RoundButton from "./RoundButton";
 import TechBalloon from "./TechBalloon";
 
