@@ -1,26 +1,11 @@
-import { useState } from "react";
-import PortfolioBox from "../components/PortfolioBox";
-import ProjectModal from "../components/ProjectModal";
+// import { useState } from "react";
+// import PortfolioBox from "../components/PortfolioBox";
+// import ProjectModal from "../components/ProjectModal";
+import Project from "../components/Project";
 import PROJECTS from "../constants/Projects";
 
 const PortfolioPage = ({lang, languages}) => {
-  const [isOpened, setIsOpened] = useState(false); 
-  const [currentProject, setCurrentProject] = useState();
-
-  const html = document.getElementById("html");
-
   const {portfolioES, portfolioEN} = languages;
-
-  const handleOnProjectClick = project => {
-    html.classList.toggle("active");
-    setIsOpened(true);
-    setCurrentProject(project);
-  };
-
-  const handleOnProjectModalClose = () => {
-    html.classList.toggle("active");
-    setIsOpened(false);
-  };
 
   return (
     <section className="portfolio" id="portfolio">
@@ -31,21 +16,14 @@ const PortfolioPage = ({lang, languages}) => {
       <div className="portfolio-container">
         {
           PROJECTS.map((project, index) => (
-            <PortfolioBox 
+            <Project
               key={index}
+              index={index}
               lang={lang}
               project={project}
-              handleOnProjectClick={handleOnProjectClick}
             />
           ))
         }
-        <ProjectModal
-          lang={lang}
-          languages={languages}
-          isOpened={isOpened}
-          onClose={() => handleOnProjectModalClose()}
-          project={currentProject}
-        />
       </div>
     </section>
   );

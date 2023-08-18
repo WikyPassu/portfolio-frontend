@@ -13,7 +13,7 @@ const AboutPage = ({lang, languages}) => {
           {lang ? aboutES.contentFirst : aboutEN.contentFirst} 
           <span>{lang ? aboutES.contentSecond : aboutEN.contentSecond}</span>
         </h2>
-        <h3>{lang ? aboutES.contentTitles : aboutEN.contentTitles}</h3>
+        {/* <h3>{lang ? aboutES.contentTitles : aboutEN.contentTitles}</h3> */}
         <p>{lang ? aboutES.contentP : aboutEN.contentP}</p>
         <Button 
           href={lang ? "/assets/about/CV-AlanPassucci.pdf" : "/assets/about/CV-AlanPassucci-EN.pdf"}
