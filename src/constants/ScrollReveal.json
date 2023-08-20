@@ -6,7 +6,7 @@
     }
   },
   {
-    "tags": ".home-img, .skills-container, .portfolio-box, .contact form, .project-container",
+    "tags": ".home-img, .skills-container, .portfolio-box, .contact form, .portfolio-container",
     "options": { 
       "origin": "bottom"
     }

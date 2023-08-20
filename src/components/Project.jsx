@@ -20,14 +20,15 @@ const Project = ({index, lang, project}) => {
   }, []);
 
   return (
-    <div 
-      className="project-container" 
-      style={width > 1025 ? index % 2 ? { flexDirection: "row-reverse" } : { flexDirection: "row" } : { flexDirection: "column" } }
-    >
+    <div className="project-container">
       <div className="project-slider">
-        <Carousel itemsToShow={type === "web" ? 1 : 3} itemPadding={[1, 5]}>
+        <Carousel
+          itemsToShow={type === "web" ? 1 : 3} 
+          itemPadding={type === "web" ? [1, 5] : [] } 
+          showArrows={false}
+        >
           {
-            slides.map((slide, index) => <img style={{ maxWidth: "100%", height: "auto" }} key={index} src={slide} alt='' />)
+            slides.map((slide, index) => <img style={{ maxWidth: type === "web" ? "100%" : "75.4%" }} key={index} src={slide} alt='' />)
           }
         </Carousel>
       </div>
@@ -41,12 +42,12 @@ const Project = ({index, lang, project}) => {
             }
           </div>
         </div>
-        {
-          link ?
-          <RoundButton href={link} className="project-btn" icon="bx bx-link-external" /> :
-          null
-        }
       </div>
+      {
+        link ?
+        <RoundButton href={link} className="project-btn" icon="bx bx-link-external" /> :
+        null
+      }
     </div>
   );
 };

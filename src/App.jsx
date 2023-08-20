@@ -14,9 +14,7 @@ import LANGUAGES from "./constants/Languages.json";
 const App = () => {
   const [lang, setLang] = useState(true);
 
-  useEffect(() => {
-    scrollReveal();
-  }, []);
+  useEffect(() => scrollReveal(), []);
 
   return (
     <>
