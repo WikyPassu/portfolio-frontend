@@ -2,15 +2,11 @@ import { useRef } from "react";
 import Project from "../components/Project";
 import PROJECTS from "../constants/Projects";
 import Carousel from "@itseasy21/react-elastic-carousel";
+import Arrow from "../components/Arrow";
 
 const PortfolioPage = ({lang, languages}) => {
   const {portfolioES, portfolioEN} = languages;
   const carouselRef = useRef(null);
-
-  const Arrow = ({type}) => {
-    const pointer = !type ? "bx bxs-left-arrow-circle arrow" : "bx bxs-right-arrow-circle arrow";
-    return <i className={pointer} onClick={() => !type ? carouselRef.current.slidePrev() : carouselRef.current.slideNext()} />;
-  };
 
   return (
     <section className="portfolio" id="portfolio">
@@ -38,8 +34,16 @@ const PortfolioPage = ({lang, languages}) => {
           }
         </Carousel>
         <div className="arrows">
-          <Arrow type={0} />
-          <Arrow type={1} />
+          <Arrow 
+            type={0}
+            carouselRef={carouselRef}
+            length={PROJECTS.length}
+          />
+          <Arrow 
+            type={1}
+            carouselRef={carouselRef}
+            length={PROJECTS.length}
+          />
         </div>
       </div>
     </section>

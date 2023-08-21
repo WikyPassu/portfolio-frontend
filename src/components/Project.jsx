@@ -1,26 +1,12 @@
-import { useEffect, useState } from 'react';
 import Carousel from "@itseasy21/react-elastic-carousel";
 import RoundButton from "./RoundButton";
 import TechBalloon from "./TechBalloon";
 
-const Project = ({index, lang, project}) => {
-  const {title, descES, descEN, type, link, techs, slides} = project;
-  const [width, setWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWidth(window.innerWidth);
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
+const Project = ({lang, project}) => {
+  const {title, titleTwo, descES, descEN, type, link, techs, otherTechs, slides, color} = project;
 
   return (
-    <div className="project-container">
+    <div className="project-container" style={{ borderColor: color }}>
       <div className="project-slider">
         <Carousel
           itemsToShow={type === "web" ? 1 : 3} 
@@ -33,12 +19,21 @@ const Project = ({index, lang, project}) => {
         </Carousel>
       </div>
       <div className="project-info">
-        <h1>{title}</h1>
+        <h1>{title}<span style={{ color: color }}>{titleTwo}</span></h1>
         <p>{lang ? descES : descEN}</p>
-        <div className="project-tech">
-          <div className="project-balloons">
+        <div className="project-balloons">
+          <div className="project-techs">
             {
-              techs.map((tech, index) => <TechBalloon  key={index} tech={tech} />)
+              techs.map((src, key) => (
+                <div key={key} className="project-tech">
+                  <img src={src} alt="" />
+                </div>
+              ))
+            }
+          </div>
+          <div className="project-other-techs">
+            {
+              otherTechs.map((tech, index) => <TechBalloon key={index} tech={tech} color={color} />)
             }
           </div>
         </div>

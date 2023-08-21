@@ -397,7 +397,7 @@ span {
 }
 
 .portfolio h2 {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 .portfolio-container {
@@ -420,6 +420,11 @@ span {
   font-size: 5rem;
   filter: drop-shadow(0 0 5px #000);
   cursor: pointer;
+  transition: .3s ease;
+}
+
+.arrow:active {
+  transform: scale(90%);
 }
 
 .project-container {
@@ -443,6 +448,14 @@ span {
   max-width: 70%;
 }
 
+.project-slider img {
+  cursor: grab;
+}
+
+.project-slider:active img {
+  cursor: grabbing;
+}
+
 .project-info {
   max-width: 30%;
   text-align: center;
@@ -450,11 +463,11 @@ span {
 }
 
 .project-info h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .project-info p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .rec-dot {
@@ -500,17 +513,43 @@ span {
   transition-duration: .1s;
 }
 
-.project-tech {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .project-balloons {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
   margin-top: 1.5rem;
+}
+
+.project-techs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.project-techs img {
+  width: 4rem;
+}
+
+.project-other-techs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.project-tech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 50%;
+  padding: 1rem;
+  box-shadow: 0 0 1rem #000;
 }
 
 .tech-balloon {
@@ -520,7 +559,6 @@ span {
   background: var(--main-color);
   padding: .2rem .5rem .2rem;
   border-radius: .5rem;
-  margin: .5rem;
   box-shadow: 0 0 1rem #000;
   width: fit-content;
   max-width: 100%;
@@ -850,14 +888,10 @@ span {
   .about-img {
     width: 75vw;
   }
-/* 
-  .project-slider {
-    width: 120vw;
-  }
 
-  .project-info {
-    width: 90vw;
-  } */
+  .project-techs img {
+    width: 3rem;
+  }
 
   .contact-img img {
     width: 80vw;
