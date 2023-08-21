@@ -1,7 +1,6 @@
 [
   {
-    "src": "dondever/dondever-icon.png",
-    "title": "Donde ver",
+    "title": "Dónde ver",
     "descES": "En este sitio web, tienes la posibilidad de buscar películas, series, animes, caricaturas y otros contenidos audiovisuales, y obtener información detallada sobre cada uno de ellos. Su función principal es proporcionarte la lista de plataformas de streaming donde se encuentran disponibles para su visualización.",
     "descEN": "On this web, you have the possibility to search for movies, series, animes, cartoons and other audiovisual content, and obtain detailed information about each of them. Its main function is to provide you with the list of streaming platforms where they are available for viewing.",
     "type": "web",
@@ -14,7 +13,6 @@
     ]
   },
   {
-    "src": "passuwordgen/passuwordgen-icon.png",
     "title": "PassuwordGen",
     "descES": "La web es capaz de generar contraseñas aleatoriamente. Puede seleccionarse la longitud de la contraseña y si deben incluirse mayúsculas, minúsculas, números o símbolos. Permite regenerar, mezclar o copiar la contraseña generada.",
     "descEN": "The web is capable of randomly generating passwords. You can select the length of the password and whether to include uppercase, lowercase, numbers, or symbols. Allows you to regenerate, mix or copy the generated password.",
@@ -29,7 +27,6 @@
     ]
   },
   {
-    "src": "passucripto/passucripto-icon.png",
     "title": "Passu Cripto",
     "descES": "La aplicación proporciona cotizaciones en tiempo real de las 250 criptomonedas más valiosas. Tiene filtros y un buscador para facilitar la búsqueda. Proporciona información detallada sobre cada criptomoneda, incluyendo un gráfico de precios de los últimos 7 días. Permite crear una lista de tus criptomonedas favoritas. También incluye un conversor para convertir entre criptomonedas, dólares y pesos argentinos.",
     "descEN": "The app provides real-time quotes for the 250 most valuable cryptocurrencies. It has filters and a search engine to facilitate the search. It provides detailed information on each cryptocurrency, including a price chart for the last 7 days. Allows you to create a list of your favorite cryptocurrencies. It also includes a converter to convert between cryptocurrencies, dollars and Argentine pesos.",
@@ -47,7 +44,6 @@
     ]
   },
   {
-    "src": "ygocardsearcher/ygocardsearcher-icon.png",
     "title": "YGOCardSearcher",
     "descES": "La aplicación muestra todas las cartas del juego de cartas Yu-Gi-Oh! Puedes buscar por nombre o descripción y aplicar filtros avanzados. Para cada carta, se muestra la imagen y se proporciona información detallada.",
     "descEN": "The app displays all the cards from Yu-Gi-Oh! You can search by name or description and apply advanced filters. For each card, the image is displayed and detailed information is provided.",
