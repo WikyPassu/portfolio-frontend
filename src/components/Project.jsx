@@ -10,7 +10,7 @@ const Project = ({lang, project}) => {
       <div className="project-slider">
         {
           video ?
-          <video controls style={{ padding: "1.5rem 1rem 1.5rem", maxWidth: type === "web" ? "100%" : "75.4%" }} >
+          <video controls style={{ padding: "1.8rem 1rem 1.8rem", maxWidth: type === "web" ? "100%" : "75.4%" }} >
             <source src={video} type="video/mp4" />
           </video> :
           <Carousel
