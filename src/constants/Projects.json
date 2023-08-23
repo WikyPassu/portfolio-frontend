@@ -1,6 +1,7 @@
 [
   {
-    "title": "SOLPLAST",
+    "logo": "/assets/portfolio/solplast/logo.png",
+    "logoSize": { "width": "15rem" },
     "descES": "Sitio web al estilo de catálogo de productos que representa a una destacada fábrica especializada en repuestos y accesorios para piletas de lona. En esta plataforma, se presenta la historia y el trayecto de la empresa, una amplia gama de productos disponibles y las diversas formas de ponerse en contacto con ellos.",
     "descEN": "Product catalog style website representing a leading manufacturer factory specialized in spare parts and accessories for canvas pools. On this platform, the company's history and journey, a wide range of available products and the various ways to get in touch with them are presented.",
     "type": "web",
@@ -22,6 +23,25 @@
     "color": "#bdfffb"
   },
   {
+    "logo": "/assets/portfolio/mkmb/logo.png",
+    "logoSize": { "width": "8rem" },
+    "title": "MKMB",
+    "descES": "Marin Kitagawa Music Bot es un bot de música para Discord. Tiene una variedad de comandos para controlar el reproductor. Permite la búsqueda de canciones en YouTube, extraer su audio y reproducirlo en un canal de voz.",
+    "descEN": "Marin Kitagawa Music Bot is a music bot for Discord. It has a variety of commands to control the player. It allows you to search for songs on YouTube, extract their audio and play it on a voice channel.",
+    "type": "web",
+    "techs": [
+      "/assets/skills/node.png",
+      "/assets/skills/javascript.png"
+    ],
+    "otherTechs": ["discord.js", "DisTube", "FFmpeg"],
+    "video": "/assets/portfolio/mkmb/mkmb.mp4",
+    "color": "#fff5a6",
+    "textColor": "#000",
+    "hasVideo": true
+  },
+  {
+    "logo": "/assets/portfolio/dondever/logo.png",
+    "logoSize": { "width": "3rem" },
     "title": "Dónde",
     "titleTwo": " ver",
     "descES": "En este sitio web, tienes la posibilidad de buscar películas, series, animes, caricaturas y otros contenidos audiovisuales, y obtener información detallada sobre cada uno de ellos. Su función principal es proporcionarte la lista de plataformas de streaming donde se encuentran disponibles para su visualización.",
@@ -43,6 +63,8 @@
     "color": "#3459ff"
   },
   {
+    "logo": "/assets/portfolio/passuwordgen/logo.png",
+    "logoSize": { "width": "8rem" },
     "title": "Passuword",
     "titleTwo": "Gen",
     "descES": "La web es capaz de generar contraseñas aleatoriamente. Puede seleccionarse la longitud de la contraseña y si deben incluirse mayúsculas, minúsculas, números o símbolos. Permite regenerar, mezclar o copiar la contraseña generada.",
@@ -65,6 +87,8 @@
     "color": "red"
   },
   {
+    "logo": "/assets/portfolio/passucripto/logo.png",
+    "logoSize": { "width": "8rem" },
     "title": "Passu Cripto",
     "descES": "La aplicación proporciona cotizaciones en tiempo real de las 250 criptomonedas más valiosas. Tiene filtros y un buscador para facilitar la búsqueda. Proporciona información detallada sobre cada criptomoneda, incluyendo un gráfico de precios de los últimos 7 días. Permite crear una lista de tus criptomonedas favoritas. También incluye un conversor para convertir entre criptomonedas, dólares y pesos argentinos.",
     "descEN": "The app provides real-time quotes for the 250 most valuable cryptocurrencies. It has filters and a search engine to facilitate the search. It provides detailed information on each cryptocurrency, including a price chart for the last 7 days. Allows you to create a list of your favorite cryptocurrencies. It also includes a converter to convert between cryptocurrencies, dollars and Argentine pesos.",
@@ -89,6 +113,8 @@
     "color": "#300060"
   },
   {
+    "logo": "/assets/portfolio/ygocardsearcher/logo.png",
+    "logoSize": { "width": "8rem" },
     "title": "YGOCardSearcher",
     "descES": "La aplicación muestra todas las cartas del juego de cartas Yu-Gi-Oh! Puedes buscar por nombre o descripción y aplicar filtros avanzados. Para cada carta, se muestra la imagen y se proporciona información detallada.",
     "descEN": "The app displays all the cards from Yu-Gi-Oh! You can search by name or description and apply advanced filters. For each card, the image is displayed and detailed information is provided.",

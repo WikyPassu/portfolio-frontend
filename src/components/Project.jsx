@@ -3,22 +3,29 @@ import RoundButton from "./RoundButton";
 import TechBalloon from "./TechBalloon";
 
 const Project = ({lang, project}) => {
-  const {title, titleTwo, descES, descEN, type, link, techs, otherTechs, slides, color} = project;
-
+  const {logo, logoSize, title, titleTwo, descES, descEN, type, link, techs, otherTechs, slides, color, textColor, video} = project;
+  
   return (
     <div className="project-container" style={{ borderColor: color }}>
       <div className="project-slider">
-        <Carousel
-          itemsToShow={type === "web" ? 1 : 3} 
-          itemPadding={type === "web" ? [1, 5] : [] } 
-          showArrows={false}
-        >
-          {
-            slides.map((slide, index) => <img style={{ maxWidth: type === "web" ? "100%" : "75.4%" }} key={index} src={slide} alt='' />)
-          }
-        </Carousel>
+        {
+          video ?
+          <video controls style={{ padding: "1.5rem 1rem 1.5rem", maxWidth: type === "web" ? "100%" : "75.4%" }} >
+            <source src={video} type="video/mp4" />
+          </video> :
+          <Carousel
+            itemsToShow={type === "web" ? 1 : 3} 
+            itemPadding={type === "web" ? [1, 5] : [] } 
+            showArrows={false}
+          >
+            {
+              slides.map((slide, index) => <img style={{ maxWidth: type === "web" ? "100%" : "75.4%" }} key={index} src={slide} alt='' />)
+            }
+          </Carousel>
+        }
       </div>
       <div className="project-info">
+        <img style={logoSize} src={logo} alt="" />
         <h1>{title}<span style={{ color: color }}>{titleTwo}</span></h1>
         <p>{lang ? descES : descEN}</p>
         <div className="project-balloons">
@@ -33,7 +40,7 @@ const Project = ({lang, project}) => {
           </div>
           <div className="project-other-techs">
             {
-              otherTechs.map((tech, index) => <TechBalloon key={index} tech={tech} color={color} />)
+              otherTechs.map((tech, index) => <TechBalloon key={index} tech={tech} color={color} textColor={textColor} />)
             }
           </div>
         </div>

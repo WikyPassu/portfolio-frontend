@@ -1,6 +1,6 @@
-const TechBalloon = ({tech, color}) => {
+const TechBalloon = ({tech, color, textColor}) => {
   return (
-    <div className="tech-balloon" style={{ background: color }}>
+    <div className="tech-balloon" style={{ background: color, color: textColor }}>
       <p>{tech}</p>
     </div>
   );
